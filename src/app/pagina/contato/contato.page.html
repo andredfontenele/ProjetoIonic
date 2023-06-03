@@ -1,0 +1,84 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Contatos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Idade</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Telefone</ion-label>
+      <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-list-header>Interesses</ion-list-header>
+    </ion-item>
+    <ion-item>
+      <ion-label>Música</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Esportes</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Cinema</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Artes</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Receber informações</ion-label>
+      <ion-toggle color="success"></ion-toggle>
+    </ion-item>
+    <ion-list>
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label>Usa o Gmail?</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-label>Sim</ion-label>
+          <ion-radio slot="start"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>Não</ion-label>
+          <ion-radio slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    <ion-item>
+      <ion-label>Gênero</ion-label>
+      <ion-select>
+        <ion-select-option>Masculino</ion-select-option>
+        <ion-select-option>Feminino</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>

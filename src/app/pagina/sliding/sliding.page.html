@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Sliding</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item> Brasil </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="teste()"
+          >Deletar</ion-item-option
+        >
+      </ion-item-options>
+      <ion-item-options side="start">
+        <ion-item-option color="success" (click)="atualizando()"
+          >Atualizar</ion-item-option
+        >
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
